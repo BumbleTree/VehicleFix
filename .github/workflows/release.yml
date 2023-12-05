@@ -41,5 +41,5 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./build/libs/vehiclefix-3.5.jar
-        asset_name: your-artifact-name.jar
+        asset_name: VehicleFix.jar
         asset_content_type: application/java-archive
